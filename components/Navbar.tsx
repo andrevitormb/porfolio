@@ -89,9 +89,9 @@ export default function Navbar() {
               ) : (
                 <button
                   onClick={() => setTheme("dark")}
-                  className="bg-slate-100 p-2 rounded-xl"
+                  className="bg-slate-600 p-2 rounded-xl"
                 >
-                  <RiMoonFill size={25} color="yellow"/>
+                  <RiMoonFill size={25} color="yellow" />
                 </button>
               )}
             </div>
