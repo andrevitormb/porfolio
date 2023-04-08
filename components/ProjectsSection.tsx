@@ -24,7 +24,7 @@ const projects = [
 const ProjectsSection = () => {
     const { systemTheme, theme, setTheme } = useTheme()
   return (
-    <section id="projects" className="bg-white dark:bg-stone-900">
+    <section id="projects" className="px-10 bg-white dark:bg-stone-900">
       <h1 className="py-10 text-center font-bold text-4xl text-neutral-900  dark:text-neutral-100">
         Projects
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>

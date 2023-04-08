@@ -6,7 +6,7 @@ import { useTheme } from "next-themes"
 const HeroSection = () => {
     const { systemTheme, theme, setTheme } = useTheme()
     return (
-    <div id="home" className='bg-white dark:bg-stone-900'>
+    <div id="home" className='bg-white dark:bg-stone-900 px-10'>
         <div className='flex flex-col text-center items-center justify-center h-screen sm:py-32 py-16 md:flex-row md:space-x-4 md:text-left md:px-40'>
             <div className='md:w-1/2 md:mt-2'>
                 <Image className='rounded-[50%] shadow-2xl' src={theme === "dark" ? '/me-dark-version.png' : '/me.jpg' } alt="" width={300} height={300}/>       
