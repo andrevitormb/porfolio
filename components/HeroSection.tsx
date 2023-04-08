@@ -18,8 +18,7 @@ const HeroSection = () => {
                     <span className='font-semibold text-teal-600'>
                         Software Engineer{" "}
                     </span>
-                    Based in Lisbon, Portugal, Working towards creating software that
-                    makes life easier and more meaningful
+                    Based in Lisbon, Portugal. I&#39;m working toward creating software that makes life easier and more meaningful.
                 </p>
                 <Link
                     to="projects"

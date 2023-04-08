@@ -17,7 +17,7 @@ const skills = [
 const AboutSection = () => {
     const { systemTheme, theme, setTheme } = useTheme()
   return (
-    <section id="about" className="bg-white dark:bg-stone-900">
+    <section id="about" className="bg-white dark:bg-stone-900 sm:px-10">
     <div className="my-5 pb-12 md:pt-16 md:pb-48 md:mx-10">
       <h1 className="text-center font-bold text-4xl text-neutral-900  dark:text-neutral-100">
         About Me
@@ -38,16 +38,15 @@ const AboutSection = () => {
           </p>
           <br />
           <p>
-          I graduated from Mackenzie Brazil, São Paulo in 2022
-            with CISCO certification and experience in network engineering, but what motivates me at the moment is the area of software engineering and since then I&#39;ve been working in the
-            field 
+          I graduated in Network Engineering from Mackenzie Brazil, São Paulo in 2019.
+
+I have a CISCO and Azure certification and also working experience in network engineering.
+However, since I discover the software engineering area I never wanted to leave that field, that is the type of work that excite me.
           </p>
           <br />
           <p>
-          I have a wide range of hobbies and passions that keep me busy.
-            From reading, playing sports, travelling, to learning new things 
-            I&#39;m always looking for new experiences and like to keep myself
-            engaged and learning new things.
+          I have a wide range of hobbies and passions that keep me busy. From reading, playing sports, traveling and learning new skills and knowledge.
+I&#39;m always looking for new experiences that can improve my soft and hard skills.
           </p>
           <br />
           <p>
@@ -55,10 +54,9 @@ const AboutSection = () => {
             <span className="font-bold text-teal-500">
               never stop growing
             </span>{" "}
-            and that&#39;s what I strive to do, I have a passion for
-            technology and a desire to always push the limits of what is
-            possible. I am excited to see where my career takes me and am
-            always open to new opportunities. 🙂
+            and that&#39;s what I strive to do.
+I have a passion for technology and a desire to always push the limits of what is possible. I&#39;m excited to see where my career takes me and I&#39;m always open to new opportunities. 🙂
+
           </p>
         </div>
         <div className="text-center md:w-1/2 md:text-left">
