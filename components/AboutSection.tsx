@@ -19,7 +19,7 @@ const AboutSection = () => {
   return (
     <section id="about" className="px-10 bg-white dark:bg-stone-900 ">
     <div className="my-5 pb-12 md:pt-16 md:pb-48 md:mx-10 ">
-      <h1 className="text-center font-bold text-4xl text-neutral-900  dark:text-neutral-100">
+      <h1 className="text-center font-bold text-4xl text-neutral-900  dark:text-neutral-100 pt-5">
         About Me
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
       </h1>

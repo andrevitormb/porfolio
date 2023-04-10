@@ -31,9 +31,12 @@ const HeroSection = () => {
                 >
                     Projects
                 </Link>
+                <a href="/resume-andre-macedo.pdf" download="Resume_Andre_Macedo.pdf"  className="text-neutral-100 cursor-pointer font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 mx-5">
+                    Resume 
+                </a>
             </div>
         </div>
-        <div className="flex flex-row items-center text-center justify-center cursor-pointer relative top-[-50px]">
+        <div className="flex flex-row items-center text-center justify-center cursor-pointer relative top-[-30px]">
                 <Link
                 to="about"
                 activeClass="active"
