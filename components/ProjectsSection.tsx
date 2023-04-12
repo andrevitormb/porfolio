@@ -16,7 +16,7 @@ const projects = [
      "API and Controllers creation" , "Detail-oriented effects and animations using TailwindCSS","React SWR data fetching", "Zustand state management"],
     image: "/myflix.png",
     github: "https://github.com/andrevitormb/myflix",
-    link: "https://myflix.andremacedo.pt/",
+    link: "https://myflix-rho.vercel.app/auth",
   },
   
 ]
